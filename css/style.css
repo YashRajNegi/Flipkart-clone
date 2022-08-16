@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .progress{
+    background-color: red;
+    height: 1.5px;
+    animation: load 5s ease-in-out 1;
+} */
+
+header{
+    background-color: #2874f0;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 2px white;
+    margin: 0 16px 0 36px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 900px;
+}
+
+.slider{
+    margin: 12px auto;
+    WIDTH: 95VW;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: Roboto,Arial,sans-serif;
+    box-shadow: 1px 2px 10px 1px rgb(0 0 0 / 30%);
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.one{
+    list-style: none;
+    text-decoration: none;
+}
+.two{
+    color: #388e3c;
+    cursor: pointer;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: #2372f1;
+    color: white;
+    font-family: cursive;
+}
